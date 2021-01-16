@@ -170,6 +170,9 @@ input{
     
 
         try{
+		
+            var display = document.getElementById("display");
+            display.style.display="block";
             var county = document.getElementById("country");
     var countycode = document.getElementById("countrycode");
     var region = document.getElementById("region");
@@ -185,8 +188,6 @@ input{
     var query = document.getElementById("query");
             // url = `http://ip-api.com/json/${mainvalue}`;
          
-            var display = document.getElementById("display");
-            display.style.display="block";
          
            
             if(document.getElementById("ipaddress").value==" ")
